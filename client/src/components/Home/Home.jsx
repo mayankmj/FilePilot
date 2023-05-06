@@ -40,7 +40,7 @@ const Home = () =>{
 
         />
 
-        <a href={result} target='_blank'>{result}</a>
+        <a href={result} >{result}</a>
       </div>
       </div>
     </div>
