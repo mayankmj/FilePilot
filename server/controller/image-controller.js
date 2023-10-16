@@ -2,6 +2,7 @@ import File from "../models/file.js"
 
 
 export const uploadImage = async (request,response) =>{
+    const PORT1 = process.env.PORT || 8000;
     const fileObj = {
         path: request.file.path,
         name: request.file.originalname,
@@ -9,7 +10,7 @@ export const uploadImage = async (request,response) =>{
     try {
         // return response.status(200).json({msg: 'Hello'})
         const file =  await File.create(fileObj);
-        response.status(200).json({path: `http://localhost:8000/file/${file._id}`});
+        response.status(200).json({path: `https://filepilot.onrender.com/file/${file._id}`});
     } catch (error) {
         response.status(500).json({error: error.message});
     }

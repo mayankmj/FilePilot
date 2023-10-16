@@ -37,9 +37,8 @@ const Home = () =>{
         <button onClick={() => onUploadClick()}>Upload</button>
         <input type="file" ref={fileInputRef} className='home_file_type' 
         onChange={(e) => setFile(e.target.files[0])}
-
+        
         />
-
         <a href={result} >{result}</a>
       </div>
       </div>
