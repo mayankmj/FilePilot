@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL=`https://filepilot.onrender.com/`;
+const API_URL=`http://localhost:8000`;
 export const uploadFile = async (data) =>{
     try {
        let response =await axios.post(`${API_URL}/upload`,data);

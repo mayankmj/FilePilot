@@ -5,7 +5,7 @@ import DBConnection from './database/db.js';
 import dotenv from 'dotenv'
 const app = express();
 
-const PORT = 'https://filepilot.onrender.com';
+const PORT = 8000;
 dotenv.config();
 app.use(cors());
 app.use('/',router);
