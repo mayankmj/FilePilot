@@ -30,7 +30,6 @@ const Home = () =>{
     return(
     <div >
     <div className="home-container">
-      <img src={image} alt="my_image" className="home-image"/>
       <div className="home-main-container">
         <h1>Simple File Sharing</h1>
         <p>Upload and share the download Link</p>
