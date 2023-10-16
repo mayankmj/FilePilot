@@ -1,5 +1,5 @@
 import { useRef, useState,useEffect} from 'react'
-import image from './Images/cover_image.png'
+// import image from './Images/cover_image.png'
 import './Home.css'
 import { uploadFile } from '../../services/api'
 
