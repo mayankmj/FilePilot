@@ -1,7 +1,7 @@
 # FilePilot
 
 # Link
-[https://filepilot.netlify.app/](https://filepilot.netlify.app)
+https://file-pilot.vercel.app/
 
 # Functionalities 
 ### Upload File
